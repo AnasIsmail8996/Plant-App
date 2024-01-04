@@ -1,0 +1,229 @@
+.categories-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.categories-heading h3{
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.categories-heading p{
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: regular;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+/* back */
+.category-back{
+   
+height: 651px;
+background: var(--Color-1, #C1DCDC);
+margin-top: 6rem !important;
+}
+
+.cat-card-parent{
+    width: 16rem;
+    border: none !important;
+    background: transparent !important;
+    transition: transform 0.3s ease-out;
+    animation: moveImg 8s ease-out;
+}
+@keyframes moveImg {
+    from{
+        transform: translateY(-20%);
+    }
+    to{
+     transform: translateY(0);
+    }
+
+}
+.cat-card-parent:hover{
+    transform: translateY(-10px);
+}
+
+.cat-card-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: -2rem;
+}
+.cat-card-one img{
+    width: 100%;
+}
+.cat-card-one h6{
+    margin: 10px;
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+/* cat-card-two */
+.cat-card-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 0rem;
+}
+.cat-card-two img{
+    width: 100%;
+}
+.cat-card-two h6{
+    margin: 10px;
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.cat-card-two-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat-card-two-para p{
+    color: var(--Color-2, rgba(179, 179, 179, 0.5));
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* card there */
+.cat-card-there{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: -2rem;
+}
+.cat-card-there img{
+    width: 100%;
+}
+.cat-card-there h6{
+    margin: 10px;
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Explore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.Explore-btn button{
+    border: none;
+    display: flex;
+padding: 12px 24px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FFF;
+
+
+
+color: var(--Color-2, #1E1E1E);
+text-align: center;
+font-family: 'medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+@media only screen and (max-width:992px){
+    .category-back{
+   
+        height: 1041px;
+        background: var(--Color-1, #C1DCDC);
+        margin-top: 6rem !important;
+        }
+         
+    }
+    @media only screen and (max-width:575.98px){
+    
+        .category-back{
+            
+            height: 1441px;
+            background: var(--Color-1, #C1DCDC);
+            margin-top: 6rem !important;
+        }
+     
+        .cat-card-parent{
+            width: 16rem;
+            border: none !important;
+            background: transparent !important;
+            margin-left: 8rem;
+        }
+        .Explore-btn{
+           
+            margin-right: 3rem;
+        }
+        
+}
+    @media only screen and (max-width:425.98px){
+    
+        .category-back{
+            
+            height: 1441px;
+            background: var(--Color-1, #C1DCDC);
+            margin-top: 6rem !important;
+        }
+     
+        .cat-card-parent{
+            width: 16rem;
+            border: none !important;
+            background: transparent !important;
+            margin-left: 5rem;
+        }
+        .Explore-btn{
+           
+            margin-right: 0rem;
+        }
+}
+    @media only screen and (max-width:320.98px){
+    
+        .category-back{
+            
+            height: 1441px;
+            background: var(--Color-1, #C1DCDC);
+            margin-top: 6rem !important;
+        }
+     
+        .cat-card-parent{
+            width: 16rem;
+            border: none !important;
+            background: transparent !important;
+            margin-left: 1rem;
+        }
+        .Explore-btn{
+           
+            margin-right: 0rem;
+        }
+}

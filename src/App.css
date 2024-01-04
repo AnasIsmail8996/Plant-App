@@ -1,0 +1,41 @@
+:root{
+    --Color-2: #1E1E1E;
+    --Color-4: #1e1e1e80;
+    --Color-1: #C1DCDC;
+
+
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../src/assets/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../src/assets/SourceSansPro-Bold.otf') format('opentype');
+}
+
+body{
+    font-family: 'regular', 'medium', sans-serif;
+}
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 28px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        background: #dbdbdb;
+        flex-shrink: 0; 
+    }
+    ::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: linear-gradient(112deg, #78ece4 37.14%, rgba(61, 160, 222, 0.6) 53.93%);
+    }
+
+    

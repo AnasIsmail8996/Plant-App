@@ -1,0 +1,182 @@
+.B-Sell-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 16rem;
+    cursor: pointer;
+}
+.B-Sell-parent h2{
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 33px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.B-Sell-parent p{
+    width: 196px;
+    color: var(--Color-4, rgba(107, 79, 79, 0.5));
+font-family: regular;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.B-Sell-parent button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 12px 24px;
+gap: 10px;
+border-radius: 8px;
+background: var(--Color-1, #C1DCDC);
+
+
+color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card-parent{
+    border: none !important;
+    background: transparent !important;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.card-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+animation:  moveImg 1s ease-out;
+transition: transform 0.3s ease-out;
+}
+
+.card-two:hover{
+    transform: translateY(-10px);
+}
+
+@keyframes moveImg{
+from {
+    transform: translateY(-20%);
+}
+to{
+   transform: translateY(0); 
+}
+}
+.card-two img{
+    width: 100%;
+}
+
+
+
+
+.card-t{
+    color: var(--Color-2, #1E1E1E);
+font-family: medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.card-tex{
+    color: rgba(30, 30, 30, 0.50);
+font-family: regular;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card-there{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    animation:  moveImg 1s ease-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-there:hover{
+    transform: translateY(-10px);
+}
+
+
+@keyframes moveImg{
+from {
+    transform: translateY(-20%);
+}
+to{
+   transform: translateY(0); 
+}
+}
+
+
+.card-there img{
+    width: 100%;
+}
+
+.card-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    animation:  moveImg 1s ease-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-four:hover{
+    transform: translateY(-10px);
+}
+
+
+@keyframes moveImg{
+from {
+    transform: translateY(-20%);
+}
+to{
+   transform: translateY(0); 
+}
+}
+.card-four img{
+    width: 100%;
+}
+
+@media only screen and (max-width:575.98px){
+    .B-Sell-parent{
+       margin-left: 7rem;
+        width: 16rem;
+    }
+    .card-parent{
+        border: none !important;
+        background: transparent !important;
+        width: 16rem;
+        margin-left: 7rem;
+    }
+}
+@media only screen and (max-width:425.98px){
+    .B-Sell-parent{
+       margin-left: 4rem;
+      
+    }
+    .card-parent{
+       
+        margin-left: 4rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .B-Sell-parent{
+       margin-left: 2rem;
+      
+    }
+    .card-parent{
+       
+        margin-left: 2rem;
+    }
+}

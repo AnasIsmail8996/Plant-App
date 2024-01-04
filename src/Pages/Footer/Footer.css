@@ -1,0 +1,275 @@
+.Footer-back-color{
+
+height: 400px;
+background: var(--Color-1, #C1DCDC);
+margin-top: 7rem;
+
+
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.f-f-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+.f-f-column h6{
+    color: #000;
+font-family: 'medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.f-f-column p{
+    width: 189px;
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.f-f-cilumn-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.f-f-cilumn-icons-img{
+    
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    flex-shrink: 0;
+    border: 1px solid #1e1e1e80;
+    cursor: pointer;
+   border-radius: 35px;
+   transition: transform 0.8s ;
+
+}
+.f-f-cilumn-icons-img:hover,
+.f-f-cilumn-icons-img:focus,
+.f-f-cilumn-icons-img:active{
+    transform: scale(1.2);
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+    flex-shrink: 0;
+    border: 1px solid #1e1e1e80;
+   border-radius: 35px;
+}
+
+
+.Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.Information h4{
+    color: var(--Color-2, #1E1E1E);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Information p{
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* company */
+.Company{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.Company h4{
+    color: var(--Color-2, #1E1E1E);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Company p{
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Contact */
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.Contact h4{
+    color: var(--Color-2, #1E1E1E);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Contact p{
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.developer h4{
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+font-family: medium;
+font-size: 28px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+@media only screen and (max-width:767.98px){
+    .Footer-back-color{
+
+        height: 500px;
+        background: var(--Color-1, #C1DCDC);
+        margin-top: 7rem;   
+        }
+
+        .Contact{
+          
+            margin-top: 3rem;
+            cursor: pointer;
+        }
+
+        .developer{
+         
+            margin-top: -1rem;
+        }
+        
+}
+@media only screen and (max-width:575.98px){
+    .Footer-back-color{
+
+        height: 1000px;
+        background: var(--Color-1, #C1DCDC);
+        margin-top: 7rem;   
+        }
+
+        .f-f-column{
+           margin-left: 12rem;
+            margin-top: 5rem;
+        }
+
+        .Information{
+          margin-left: 12rem;
+            margin-top: 5rem;
+            cursor: pointer;
+        }
+
+        .Company{
+            margin-left: 12rem;
+            margin-top: 5rem;
+            cursor: pointer;
+        }
+
+        .Contact{
+          
+            margin-top: 3rem;
+            cursor: pointer;
+            margin-left: 12rem;
+        }
+
+        .developer{
+         
+            margin-top: 0rem;
+        }
+        
+}
+@media only screen and (max-width:425.98px){
+    .Footer-back-color{
+
+        height: 1000px;
+        }
+
+        .f-f-column{
+           margin-left: 8rem;
+           
+        }
+
+        .Information{
+          margin-left: 8rem;
+        }
+
+        .Company{
+            margin-left: 8rem;
+        }
+
+        .Contact{
+            margin-left: 8rem;
+        }
+
+        .developer{   
+            margin-top: 0rem;
+        }
+        
+}
+@media only screen and (max-width:320px){
+    .Footer-back-color{
+
+        height: 1000px;
+        }
+
+        .f-f-column{
+           margin-left: 4rem;
+           
+        }
+
+        .Information{
+          margin-left: 4rem;
+        }
+
+        .Company{
+            margin-left: 4rem;
+        }
+
+        .Contact{
+            margin-left: 4rem;
+        }
+
+        .developer{   
+            margin-top: 0rem;
+        }
+        
+}
